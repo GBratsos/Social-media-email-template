@@ -1,0 +1,51 @@
+.webkit-hide {
+    display: none;
+}
+
+.tweet {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 5px auto;
+    display: table;
+    border: 3px solid #333333;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fbpost {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 5px auto;
+    display: table;
+    border: 3px solid #333333;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.instapic {
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 5px auto;
+    display: table;
+    border: 3px solid #333333;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slide {
+    margin-top: -200%;
+    opacity: 0;
+    -webkit-animation: slide 2s ease-in-out forwards, appear 3s ease-in-out forwards;
+}
