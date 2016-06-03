@@ -1,10 +1,10 @@
-# Foundation for Emails Template
+# Social Media Feed made with Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 
-**Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
+This is a starter project trying to create a responsive email with live feed from social media.
 
-This is the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
+This repo is using the [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive emails that work in any email client. It has a Gulp-powered build system with these features:
 
 - Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
 - Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
@@ -12,6 +12,8 @@ This is the official starter project for [Foundation for Emails](http://foundati
 - Image compression
 - Built-in BrowserSync server
 - Full email inlining process
+
+**For any bug concering the [Foundation for Emails](http://foundation.zurb.com/emails) stack please open issues at [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
 
 ## Installation
 
@@ -25,20 +27,18 @@ Install the Foundation CLI with this command:
 npm install foundation-cli --global
 ```
 
-Use this command to set up a blank Foundation for Emails project:
+Use this command to set up this project:
 
 ```bash
-foundation new --framework emails
+foundation watch
 ```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
 ### Manual Setup
 
 To manually set up the template, first download it with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-emails-template projectname
+git clone https://github.com/GBratsos/Social-media-email-template
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
@@ -85,5 +85,3 @@ Testing in Litmus requires the images to be hosted publicly. The provided gulp t
 For a full list of Litmus' supported test clients(applications) see their [client list](https://litmus.com/emails/clients.xml).
 
 **Caution:** AWS Service Fees will result, however, are usually very low do to minimal traffic. Use at your own discretion.
-
-
