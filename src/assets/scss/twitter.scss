@@ -1,41 +1,102 @@
+.tweet-container {
+    overflow: hidden;
+    position: relative;
+    .tweet {
+        margin: 5px auto;
+        display: table;
+        border: 3px solid #333;
+        position: relative;
+        box-sizing: border-box;
+        width: 548px;
+        &:hover {
+            cursor: pointer;
+            border-color: #7fbbc0;
+        }
+        &.slide {
+            margin-top: -100%;
+            opacity: 0;
+            -webkit-animation: slide 2s ease-in-out forwards, appear 3s ease-in-out forwards;
+        }
+        .tweet-avatar-wrapper {
+            width: 70px;
+            float: left;
+            margin: 5px 0;
+            .avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 5px;
+                margin-left: 5px;
+                background-size: cover !important;
+            }
+        }
+        .tweet-wrapper {
+            margin: 5px 0;
+            .name {
+                font-weight: bold;
+                font-size: 14px;
+                color: #111;
+            }
+            .handle {
+                color: #7fbbc0;
+                display: inline-block;
+                margin-left: 3px;
+            }
+            .copy {
+                color: #666666;
+                margin-top: 5px;
+                display: block;
+            }
+            .timestamp {
+                color: #999999;
+                margin-left: 3px;
+                display: inline-block;
+                &::before {
+                    content: '\2022';
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
 #tweet-1 {
-    -webkit-animation-delay: 29s;
+    animation-delay: 41s;
 }
 
 #tweet-2 {
-    -webkit-animation-delay: 25s;
+    animation-delay: 37s;
 }
 
 #tweet-3 {
-    -webkit-animation-delay: 21s;
+    animation-delay: 33s;
 }
 
 #tweet-4 {
-    -webkit-animation-delay: 17s;
+    animation-delay: 29s;
 }
 
 #tweet-5 {
-    -webkit-animation-delay: 13s;
+    animation-delay: 25s;
 }
 
 #tweet-6 {
-    -webkit-animation-delay: 9s;
+    animation-delay: 21s;
 }
 
 #tweet-7 {
-    -webkit-animation-delay: 5s;
+    animation-delay: 17s;
 }
 
 #tweet-8 {
-    -webkit-animation-delay: 3s;
+    animation-delay: 13s;
 }
 
 #tweet-9 {
-    -webkit-animation-delay: 1.5s;
+    animation-delay: 9s;
 }
 
 #tweet-10 {
-    -webkit-animation-delay: 0.5s;
+    animation-delay: 5s;
 }
 
 @-webkit-keyframes slide {
@@ -48,66 +109,4 @@
     to {
         opacity: 1
     }
-}
-
-.tweet-container {
-    overflow: hidden;
-    position: relative;
-}
-
-.tweet:hover {
-    cursor: pointer;
-    border-color: #7fbbc0;
-}
-
-.tweet-avatar-wrapper {
-    width: 70px;
-    float: left;
-}
-
-.avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 5px;
-    margin-top: 5px;
-    background-size: cover !important;
-}
-
-.name {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 25px;
-    color: #111111;
-}
-
-.handle {
-    color: #7fbbc0;
-    display: inline-block;
-    margin-left: 3px;
-}
-
-.copy {
-    color: #666666;
-    margin-top: 5px;
-    display: block;
-}
-
-.timestamp {
-    color: #999999;
-    margin-left: 3px;
-    display: inline-block;
-}
-
-.timestamp::before {
-    content: '\2022';
-    margin-right: 5px;
-}
-
-.name,
-.handle,
-.copy,
-.timestamp {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
 }
