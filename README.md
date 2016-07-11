@@ -3,7 +3,7 @@
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
 
 This is a starter project trying to create a responsive email with live feed from social media.
-#Edit: Live-Feed animation works only on browser view.
+- Edit: Live-Feed animation works only on browser view.
 
 Project based on: https://litmus.com/blog/how-to-code-a-live-dynamic-twitter-feed-in-html-email
 
