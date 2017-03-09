@@ -16,7 +16,7 @@ This repo is using the [Foundation for Emails](http://foundation.zurb.com/emails
 - Built-in BrowserSync server
 - Full email inlining process
 
-**For any bug concering the [Foundation for Emails](http://foundation.zurb.com/emails) stack please open issues at [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
+**For any bug concerning the [Foundation for Emails](http://foundation.zurb.com/emails) stack please open issues at [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
 
 ## Installation
 
